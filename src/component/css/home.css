@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.imageHome{
+
+    margin-left: 5rem;
+    width: 75rem;
+    height: 36rem;
+    overflow: hidden;
+}
+.imageHome img{
+    margin-top: 5.5rem;
+    width: 100%;
+    height: auto;
+}
+.content-info-home{
+    display: flex;
+    justify-content: center;
+    padding: 2rem 0 0 5rem;
+    position: relative;
+    color: white;  
+    top: -20rem;
+    width: 35rem;
+    height: 24.5rem;
+    background-color: #830a48;
+}
+.content-info-home h2{
+    margin-bottom: 2rem;
+}
+.content-info-home h3{
+    margin-bottom: 2rem;
+}
+.icon-home--card{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 5rem;
+    margin-right: 1.5rem;
+    cursor: pointer;
+}
+.card--link{
+    color: white;
+    list-style: none;
+    border: none;
+    text-decoration:none ;
+}
+.card--link:hover{
+    color: #ed85ba;
+    transition: all .2s ease-in-out;
+}

@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.content-navLikn{
+    position: fixed;
+    width: 100%;
+    height: auto;
+
+}
+
+
+.content--left{
+   float: right;
+   border: 1px solid rgb(174, 174, 174);
+   text-align: center;
+   align-items: center;
+   height: 100%;
+   background-color: white;
+}
+.content--icon{
+    font-size: 2rem;
+    padding: 1.5rem;
+    width: 8rem;
+    height: 100%;
+    cursor: pointer;
+}
+.content--icon:hover{
+    color: #830a48;
+    border: 1px solid rgb(174, 174, 174);
+    transition: all .2s ease-in-out;
+}
+.content-link--iterm{
+    border-bottom: 1px solid rgb(174, 174, 174);
+    height: 5.6rem;
+    background-color: white;
+}
+.navlink--iterm--1{
+    display: flex;
+    justify-content: flex-end;
+    background-color: white;
+
+    
+}
+.navlink--iterm--1 p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    font-size: .7rem;
+    text-align: center;
+    width: 10rem;
+    height: auto;
+    background-color: #830a48;
+    color: white;
+    cursor: pointer;
+    
+}
+.navlink--iterm--1 p i{
+    font-size: 1rem;
+    display: flex;
+    padding-left: .5rem;
+}
+.navlink--iterm--2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.iterm--2--title{
+    margin-left: 5rem;
+    color: #830a48;
+}
+.iterm--2--link{
+    margin-right: 5rem;
+    padding: 1rem;
+}
+.iterm--link{
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    margin: 1.5rem;
+    font-size: 1.3rem;
+    
+}
+.iterm--link:hover{
+    color: #830a48;
+    transition: all .2s ease-in-out;
+}

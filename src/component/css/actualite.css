@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container--actualite{
+    display: flex;
+    justify-content: space-between;
+    margin-top: -14rem;
+    margin: -14rem 10rem 0 5rem;
+}
+.actualite-title p{
+    font-size: 1.5rem;
+}
+.actualite--link{
+    border: 1px solid rgb(165, 165, 165);
+    width: 13rem;
+    height: 2.5rem;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.actualite--link:hover{
+    border: 1px solid #830a48;
+    color: #830a48;
+    transition: all .2s ease-in-out;
+}
